@@ -1,0 +1,31 @@
+.header-outer {
+    padding: 10px;
+    background: #ff416c;
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.action-section {
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.user-name {
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.log-out{
+    cursor: pointer;
+}

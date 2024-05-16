@@ -1,0 +1,67 @@
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.search-field :hover {
+    border: none;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.header-row {
+    display: flex;
+    justify-content: end;
+}
+
+.table-header {
+    background-color: #f8f9fa;
+}
+
+.header-heading {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.header-search {
+    display: flex;
+}
+
+.square-icon {
+    font-size: 25px;
+    color: grey;
+}
+
+.search-field {
+    border-block-start: none;
+    border-left: none;
+    border-right: none;
+}
+
+.table-design {
+    background-color: white;
+    height: 420px;
+    border:0 solid;
+    border-color: inherit;
+    border-radius: 10px;
+}
+.tr{
+    border-style: groove;
+}
+.square-icon>.fa{
+    cursor: pointer;
+}

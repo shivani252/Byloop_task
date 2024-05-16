@@ -1,0 +1,91 @@
+.headerLine {
+    border-bottom: none !important;
+}
+
+.footerLine {
+    border-top: none !important;
+    margin-bottom: 20px !important;
+}
+
+.cancelbutton {
+    background: white !important;
+    border-color: #ff416c !important;
+    color: 'black';
+    width: '100px'!important;
+}
+
+.cancelbutton:hover {
+    background: white !important;
+    border-color: #ff416c !important;
+    color: black !important
+}
+
+.deletebutton {
+    background: linear-gradient(#ff416c, #FD6266) !important;
+    color: white !important;
+    width: 100px;
+    font-size: 18px;
+    margin-left: 1vw;
+}
+
+.customModal {
+    width: 400px !important;
+    margin: auto !important;
+    top: 50% !important;
+    border: none !important;
+    transform: translateY(-50%) !important;
+}
+.delete-pop-up-message{
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-top: -25px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .customModal {
+        width: 300px !important;
+        margin: auto !important;
+        top: 5% !important;
+        border: none !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .customModal {
+        width: 400px !important;
+        margin: auto !important;
+        top: 35% !important;
+        border: none !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+.cancelbutton,
+.deletebutton {
+    width: 100px !important; /* Set the width to your desired value */
+}
+
+.cancelbutton {
+    background: white !important;
+    border-color: #ff416c !important;
+    color: black;
+}
+
+.cancelbutton:hover {
+    background: white !important;
+    border-color: #ff416c !important;
+    color: black !important;
+}
+
+.deletebutton {
+    background: linear-gradient(#ff416c, #FD6266) !important;
+    color: white !important;
+    font-size: 18px;
+    /* margin-left: 2vw; */
+}
+
+.customModal .btn {
+    /* margin-right: 5px;  */
+}
