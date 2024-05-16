@@ -75,8 +75,8 @@ export const CarEdit = async (request, response, next) => {
 export const CarDelete = async (request, response, next) => {
   try {
     const { _id } = request.params;
-    const deletedEmployee = await Car.findByIdAndDelete(_id);
-    if (!deletedEmployee) {
+    const deletedCar = await Car.findByIdAndDelete(_id);
+    if (!deletedCar) {
       return response
         .status(404)
         .json({ message: "Car not found", status: false });
